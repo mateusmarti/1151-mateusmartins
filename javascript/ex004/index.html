@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREÇO DO PRODUTO</title>
+</head>
+<body>
+    <h1>QUAL E O DESCONTO</h1>
+    <button onclick="c()">VAI!</button>
+
+    <script>
+        function c() {
+        let n = Number(prompt("Qual e o preço?"))
+        document.writeln(`<h1>O PRODUTO CUSTA ${n} `)
+            let cont = 0
+            while(cont <= 90){
+            document.writeln(`${n} descontando ${cont}% ficara ${n - cont/100*n}<br>`)
+                cont += 10
+            }
+        }
+    </script>
+</body>
+</html>
