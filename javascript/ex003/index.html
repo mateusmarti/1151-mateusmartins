@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TABUADAS </title>
+</head>
+<body>
+    
+    <h1>Testando Loopings</h1>
+    <button onclick="contar()">VAI!</button>
+    
+    <script>
+        function contar() {
+        let n1 = Number(prompt("TABUADA DE QUAL NUMERO?"))
+        document.writeln(`<h1>Tabuada de ${n1}</h1>`)
+
+        let cont = 1 
+        while (cont <= 50) {
+            document.writeln(`${n1} x ${cont} = ${n1 * cont}<br>`)
+                cont++
+        }
+        }
+    </script>
+    
+</body>
+</html>
