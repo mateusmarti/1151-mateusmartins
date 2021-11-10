@@ -9,18 +9,24 @@
 <body>
     <main>
         <section>
-            <h1> Soma de Números </h1>
-            <br>
-            <br>
+            <h1>Maior e menor valor</h1>
+            <br><br><br>
+            <p>Esse exercício vai pedir que você digite dez números na sequência e depois vai mostrar qual foi o maior e o menor valor digitados. Cuidado para digitar apenas números, caso contrário os valores inválidos serão ignorados e vão valer zero.</p>
             <button onclick="maiormenor()">COMEÇAR AGORA</button>
-            <p id="res">O resultado vai aparecer aqui</p>
+            <p id="res"></p>
         </section>
     </main>
     <script>
+        let res = document.getElementById("res")
+
         function maiormenor() {
-            let res = document.getElementById("res")
-            let num = 0 
-            let maior =
+            let num = 0
+            let maior = 0
+            let menor = 0
+            let cont = 1
+            while (cont <= 10){
+                num = Number(prompt(`Digite o ${cont}º número\nMenor valor = ${menor}\nMaior valor = ${maior}`))
+            }
         }
     </script>
 </body>

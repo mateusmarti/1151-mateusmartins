@@ -5,7 +5,6 @@ let mensagem = document.getElementById("mensagem")
 saida.style.visibility = "hidden"
 
 function cadastro() {
-    alert("certo")
     let total =  Number(document.getElementById("total").value)
 
     let idade = 0
