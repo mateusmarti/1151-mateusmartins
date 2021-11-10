@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+}
+button {
+    color: black;
+    background-color: cyan;
+    border-radius: 10px;
+}
+body {
+    background-image: linear-gradient(cyan, blue);
+}
+p, label {
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2 {
+    font-style: italic;
+}
+main {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+
+}
+
+section {
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+
+}
