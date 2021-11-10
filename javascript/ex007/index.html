@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Maior e menor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -13,11 +14,11 @@
             <br><br><br>
             <p>Esse exercício vai pedir que você digite dez números na sequência e depois vai mostrar qual foi o maior e o menor valor digitados. Cuidado para digitar apenas números, caso contrário os valores inválidos serão ignorados e vão valer zero.</p>
             <button onclick="maiormenor()">COMEÇAR AGORA</button>
-            <p id="res"></p>
+            <p id="resultado"></p>
         </section>
     </main>
     <script>
-        let res = document.getElementById("res")
+        let res = document.getElementById("resultado")
 
         function maiormenor() {
             let num = 0
@@ -26,8 +27,18 @@
             let cont = 1
             while (cont <= 10){
                 num = Number(prompt(`Digite o ${cont}º número\nMenor valor = ${menor}\nMaior valor = ${maior}`))
-            }
-        }
+                if (cont == 1) {
+                    maior = num
+                    menor = num
+                } else {
+                    if (num < menor) {
+                        menor = num
+                    } else if (num > maior) {
+                        maior = num
+                    }
+                } cont ++
+            } res.innerHTML = `De todos os valores que você digitou, o <strong>maior foi ${maior}</strong> e o <strong>menor foi ${menor}</strong>.`
+        } 
     </script>
 </body>
 </html>
