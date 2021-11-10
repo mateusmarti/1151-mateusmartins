@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somador de números</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <h1> Soma de Números </h1>
-        <br>
-        <br>
-        <button onclick="somar()">COMEÇAR AGORA</button>
-        <p id="res">O resultado vai aparecer aqui</p>
+        <section>
+            <h1> Soma de Números </h1>
+            <br>
+            <br>
+            <button onclick="somar()">COMEÇAR AGORA</button>
+            <p id="res">O resultado vai aparecer aqui</p>
+        </section>
     </main>
     <script>
             function somar() {
@@ -22,7 +25,7 @@
                 let c = 1
                 let soma = 0
                 while (c <= 5) {
-                    num = Number(prompt(`digite o valor ${c}`))
+                    num = Number(prompt(`Digite o valor ${c}`))
                     resp.innerHTML += ` ${num} `
                     if (c < 5) {
                         resp.innerHTML += " + " 
@@ -34,37 +37,7 @@
                     c++
                 }
                 resp.innerHTML += `${soma}`
-            }
-        
+            }        
     </script>
-    <style>
-        html, body {
-            height: 100%;
-        }
-        button {
-            color: black;
-            background-color: cyan;
-            border-radius: 10px;
-        }
-        body {
-            background-image: linear-gradient(cyan, blue);
-        }
-        p {
-            font-size: smaller;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        h1 {
-            font-style: italic;
-        }
-        main {
-            display: block;
-            margin: auto;
-            border-radius: 15px;
-            background-color: white;
-            width: 300px;
-            padding: 15px;
-
-        }
-    </style>
 </body>
 </html>
