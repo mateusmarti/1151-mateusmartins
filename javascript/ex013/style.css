@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+body {
+    background-image: url(Matematica.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+section#saida {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
