@@ -1,4 +1,4 @@
-let pessoas = new Array("José", "Paulo", "Mateus", "Ana Maria", "Manguinha", "Vetor")
+let pessoas = new Array("José", "Paulo", "Mateus", "Ana Maria", "Manguinha", "Vetor", "Jessica", "Ana Carolina", "Poeys", "Andrei", "Cristiano", "Daniel", "Luis Filipe", "Ana Julia", "Rodrigo", "Milene", "Natan", "Livia")
         let p = document.getElementById("part")
         let v = document.getElementById("venc")
 
