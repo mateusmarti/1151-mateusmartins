@@ -1,0 +1,17 @@
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-image: linear-gradient(to right, #262626, #0D0D0D);
+        }
+        main {
+            width: 500px;
+            margin: auto;
+        }
+        section {
+            background-image: linear-gradient(to right,#8A8C89, #BFA5B8);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        section#resultado {
+            visibility: hidden;
+        }
