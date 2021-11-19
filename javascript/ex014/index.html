@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiamento de Carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Calcule seu Financiamento</h1>
+            <form action="salvar.php" method="get" onsubmit="return cal()">
+                <label for="car">Qual é o modelo do carro?</label>
+                <input type="text" name="car" id="car"><br>
+                <label for="val">Qual é o preço total do carro?</label>
+                <input type="number" name="val" id="val" min="100" value="10000">
+                <label for="par">Qual é o total de parcelas?</label>
+                <input type="number" name="par" id="par" min="2">
+                <input type="submit" value="Calcular Financiamento" id="fin">
+            </form>
+        </section>
+    </main>
+    <script>
+        function cal() {
+            alert("ok")
+            //let v = Number(document.getElementById("val").value)
+            //let par = 
+            return false
+        }
+    </script>
+</body>
+</html>
