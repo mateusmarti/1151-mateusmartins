@@ -17,18 +17,12 @@
                 <label for="val">Qual é o preço total do carro?</label>
                 <input type="number" name="val" id="val" min="100" value="10000">
                 <label for="par">Qual é o total de parcelas?</label>
-                <input type="number" name="par" id="par" min="2">
+                <input type="number" name="par" id="par" min="2" max="36" value="2">
                 <input type="submit" value="Calcular Financiamento" id="fin">
             </form>
+            <p id="res">O resultado vai aparecer aqui</p>
         </section>
     </main>
-    <script>
-        function cal() {
-            alert("ok")
-            //let v = Number(document.getElementById("val").value)
-            //let par = 
-            return false
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
