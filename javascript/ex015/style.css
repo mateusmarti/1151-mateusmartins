@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+body {
+    background-image: linear-gradient(#A62E4E, #252273 );
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
