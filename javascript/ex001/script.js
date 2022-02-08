@@ -2,7 +2,7 @@ let res = document.getElementById("res")
 function veja() {
     let nome = document.getElementById("name").value
     let ano = Number(document.getElementById("idd").value)
-    let idade = 2021 - ano
+    let idade = 2022 - ano
     
     if (idade <16) {
         res.innerHTML = `Atenção ${nome}, como você tem ${idade} anos de idade, <strong>VOCÊ NÃO PODE VOTAR!</strong>`
