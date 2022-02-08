@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confira se você está acima do peso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Veja aqui</h1>
+            <p>Os cálculos são feitos de acordo com sexo e altura</p>
+            <form action="salvar.php" method="get" onsubmit="return veja()">
+                    <label for="sexo">Qual é o seu sexo?</label>
+                    <select name="sex" id="sex">
+                        <option value="masc">MASCULINO</option>
+                        <option value="fem">FEMININO</option>
+                    </select> <br>
+                    <label for="altura">Qual é sua altura em centimetros?</label>
+                    <input type="number" name="alt" id="alt" min="50" max="240"> <br>
+                    <label for="peso">Quanto você pesa?</label>
+                    <input type="number" name="peso" id="peso" min="1" max="2000">
+                    <input type="submit" value="VEJA!!">
+                        
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
