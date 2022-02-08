@@ -3,7 +3,7 @@ let resp = document.getElementById("res")
         function mudanum() { 
             let btn = document.getElementById("btnfat")
             let num = Number(document.getElementById("num").value)
-            btn.value = `calcular ${num}`
+            btn.value = `Calcular ${num}`
     }
         function fatorial() {
             let num = Number(document.getElementById("num").value)
