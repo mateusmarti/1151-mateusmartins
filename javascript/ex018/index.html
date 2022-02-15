@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
+    <title>Bem-Vindo</title>
+    <link rel="stylesheet" href="style.css">
 <body>
-    
+    <main>
+        <section>
+            <h1>VERIFIQUE JÀ!</h1>
+            <form action="salvar.php" method="get" onsubmit="return go() ">
+                <label for="name">Qual é seu nome?</label>
+                <input type="text" id="name"> <br>
+                <label for="sex">Qual é o seu sexo?</label>
+                <select name="sex" id="sex">
+                    <option value="masc">MASCULINO</option>
+                    <option value="fem">FEMININO</option>
+                </select> <br>
+                <label for="idd">Qual é a sua idade?</label>
+                <input type="number" id="idd" min="0" max="120">
+                <input type="submit" value="ENVIAR" id="button">
+                <p id="res"></p>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
