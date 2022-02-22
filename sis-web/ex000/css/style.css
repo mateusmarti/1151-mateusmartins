@@ -1,6 +1,6 @@
-bh1 {
+h1 {
     text-align: center;
-    color: rgb(252, 246, 238);
+    color: rgb(0, 0, 0);
     background-color: dodgerblue;
     width: 80%;
     margin: 15px auto;
@@ -29,6 +29,6 @@ img {
     border-radius: 10px;
 }
 body {
-    background-color: blue;
+    background-color: rgb(10, 10, 135);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
