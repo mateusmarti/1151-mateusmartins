@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+body {
+    background-image: linear-gradient(#0474f5, #6203bb );
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 0, 255);
+    border-radius: 10px;
+}
