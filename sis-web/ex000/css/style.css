@@ -1,6 +1,6 @@
-h1 {
+bh1 {
     text-align: center;
-    color: bisque;
+    color: rgb(252, 246, 238);
     background-color: dodgerblue;
     width: 80%;
     margin: 15px auto;
@@ -8,4 +8,27 @@ h1 {
     padding: 0.2em;
     font-size: 1.5em;
     border-radius: 10px;
+}
+img {
+    width: 100%;
+}
+.miniaturas,.principal,.legenda {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.imagem {
+    width: 20%;
+    float: left;
+}
+
+.legenda {
+    color: wheat;
+    background-color: dodgerblue;
+    padding: 0.2em;
+    border-radius: 10px;
+}
+body {
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
