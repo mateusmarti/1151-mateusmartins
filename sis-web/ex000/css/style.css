@@ -23,7 +23,7 @@ img {
 }
 
 .legenda {
-    color: wheat;
+    color: rgb(0, 0, 0);
     background-color: dodgerblue;
     padding: 0.2em;
     border-radius: 10px;
