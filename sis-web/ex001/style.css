@@ -11,11 +11,16 @@ body {
     background-color: rgb(255, 255, 255);
 }
 header {
-    background-image: url(img/Keyboard_Toys_Macro_Closeup_Laptops_Police_520947_1920x1080.jpg);
+    background-image: url(img/degrade-azul.png);
+    background-color: blue;
     background-size: 100% 100%;
-    color: white;
+    color: rgb(255, 255, 255);
     height: 13em;
     max-width: 100%;
     padding: 2em;
     text-align: center;
+}
+header h3, header p {
+    font-family: 'Smooch Sans', sans-serif, bold;
+    font-size: 20px;
 }
