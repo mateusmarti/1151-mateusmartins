@@ -1,0 +1,21 @@
+body {
+    margin: 0em;
+    background-image: url(img/Keyboard_Hands_Robot_560160_1920x1080.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#pag {
+    width: 1000px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+header {
+    background-image: url(img/Keyboard_Toys_Macro_Closeup_Laptops_Police_520947_1920x1080.jpg);
+    background-size: 100% 100%;
+    color: white;
+    height: 13em;
+    max-width: 100%;
+    padding: 2em;
+    text-align: center;
+}
