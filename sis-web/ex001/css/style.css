@@ -1,11 +1,11 @@
 body {
     margin: 0em;
-    background-image: url("img/Keyboard_Hands_Robot_560160_1920x1080.jpg");
+    background-image: url("../img/Keyboard_Hands_Robot_560160_1920x1080.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
 }
 #pag {
-    width: 1000px;
+    width: 80%;
     margin: auto;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
