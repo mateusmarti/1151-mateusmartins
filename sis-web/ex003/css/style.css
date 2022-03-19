@@ -1,0 +1,77 @@
+body {
+    background-color: #533609;
+}
+#pag {
+    width: 80%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background-color: #946D46;
+}
+header {
+    background-image: url(../img/fundo-de-parede-marrom-liso-abstrato-com-cor-gradiente-de-circulo-suave_1258-48257.webp);
+    background-size: 100% 100%;
+    color: rgb(255, 255, 255);
+    height: 13em;
+    max-width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+header h1 {
+    font-family: 'Smooch Sans', sans-serif, bold;
+    font-size: 30px;
+    font-weight: bolder;
+}
+header p {
+    font-family: 'Smooch Sans', sans-serif, bold;
+    font-size: 20px;
+    font-weight: bolder;
+}
+nav {
+    background-color: #282829;
+    font-family: 'Smooch Sans', sans-serif, bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    max-width: 100%;
+    font-weight: bolder;
+}
+section {
+    background-color: #57402a;
+    color: rgb(255, 255, 255);
+    font-family: 'Smooch Sans', sans-serif, bold;
+    font-size: 20px;
+    padding: 1em;
+    max-width: 100%;
+}
+footer {
+    background-color: #282829;
+    color: rgb(255, 255, 255);
+    min-height: 1em;
+    max-height: 100em;
+    padding: 1em;
+    font-family: 'Smooch Sans', sans-serif, bold;
+    font-size: 20px;
+}
+ul li {
+    display: inline;
+    text-decoration: none;
+    width: 15%;
+    background-color: #946D46;
+    margin-left: 1em;
+    text-align: center;
+    list-style: none;
+    margin:0%;
+}
+ul li:hover {
+    background-color: #61452a;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    padding: 1em;
+    font-weight: bold;
+} 
+img {
+    width: 100%;
+}
