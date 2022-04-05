@@ -10,7 +10,7 @@ body {
     height: auto;
     padding: 5%;
     border-radius: 5%;
-    box-shadow: 0]px 0px 10px #000;
+    box-shadow: 0px 0px 10px #000;
 }
 
 #orcamento {
@@ -55,4 +55,26 @@ legend {
     color: beige;
     padding: 2%;
     width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+#orcamento input[type=radio] {
+    width: 20px;
+}
+
+#msg {
+    color: darkblue;
+    font-weight: bold;
+    display: none;
+}
+
+#cnpj {
+    display: none;
+}
+
+#cartao {
+    display: none;
 }
