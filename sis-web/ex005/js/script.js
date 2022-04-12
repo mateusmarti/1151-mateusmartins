@@ -71,5 +71,27 @@ function confirma(form){
         }
     }
 
-    
+
+}
+function senha() {
+    senha1 = document.orcamento.senha1.value;
+    senha2 = document.orcamento.senha2.value;
+
+    if(senha1 != senha2) {
+        document.getElementById('msg').style.display = "block";
+    }
+    else{
+        document.getElementById('msg').style.display = "none";
+    }
+}
+
+function pessoa(obj){
+    if(obj == "pf"){
+        document.getElementById('cpf').style.display = "block"
+        document.getElementById('cnpj').style.display = "none"
+    }
+    else {
+        document.getElementById('cnpj').style.display = "block"
+        document.getElementById('cpf').style.display = "none"
+    }
 }
