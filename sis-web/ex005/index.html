@@ -11,7 +11,7 @@
     <section id="pag">
         <header>Orçamento</header>
         <hr>
-        <form method="post" name="orcamento" id="orcamento">
+        <form method="post" name="orcamento" id="orcamento" oninput="calculos(this)" onsubmit="return confirma(this)" novalidate>
             <fieldset>
                 <legend> Dados de Acesso </legend>
                 <label for="login"> Log-In </label>
@@ -29,10 +29,10 @@
             <fieldset>
                 <legend> Dados de Pagamento </legend>
                 <label for="usuario"> Tipo de Acesso </label> <br>
+                <div class="clear"></div>
                 <input type="radio" name="tipo" id="tipo" value="Pessoa Física" checked onchange="pessoa('pf')"><label> Pessoa Física </label>
                 <input type="radio" name="tipo" id="tipo"
                 value="cnpj" onchange="pessoa('pj')"> Pessoa Jurídica <br> <br>
-                <div class="clear"></div>
 
                 <div id="cpf">
                     <label for="cpf"> CPF </label>
@@ -47,7 +47,7 @@
                 <input type="text" name="tel" id="tel" placeholder="(XX)XXXXX-XXXX"> <br><br>
 
                 <label for="formapg"> Forma de Pagamento </label>
-                <select name="formapg" id="formapg">
+                <select name="pagamento" id="pagamento">
                     <option value="cartao"> Cartão </option>
                     <option value="din"> Dinheiro </option>
                     <option value="cheque"> Cheque </option>
@@ -67,24 +67,33 @@
                     <tr>
                         <td> Placa de Video </td>
                         <td> R$700,00 </td>
-                        <td> <input type="number" name="quant1" min="0" max="9" onkeydown="return setas(event)"> </td>
-                        <td> <input type="text" name="tot1"></td>
+                        <td> <input type="number" name="quant2" min="0" max="9" onkeydown="return setas(event)"> </td>
+                        <td> <input type="text" name="tot2"></td>
                     </tr>
                     <tr>
                         <td> Placa Mãe </td>
                         <td> R$650,00 </td>
-                        <td> <input type="number" name="quant1" min="0" max="9" onkeydown="return setas(event)"> </td>
-                        <td> <input type="text" name="tot1"></td>
+                        <td> <input type="number" name="quant3" min="0" max="9" onkeydown="return setas(event)"> </td>
+                        <td> <input type="text" name="tot3"></td>
                     </tr>
                     <tr>
                         <td> HD Externo </td>
                         <td> R$299,00 </td>
-                        <td> <input type="number" name="quant1" min="0" max="9" onkeydown="return setas(event)"> </td>
-                        <td> <input type="text" name="tot1"></td>
+                        <td> <input type="number" name="quant4" min="0" max="9" onkeydown="return setas(event)"> </td>
+                        <td> <input type="text" name="tot4"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" align="right">
+                            <h3> Total ==> R$ <output id="total"> 0,00</output> </output> </h3>
+                            <h3> Desconto ==> R$ <output id="desconto">  0,00</output> </h3>
+                            <h3> Valor a Pagar ==> R$ <output id="apagar"> 0,00</output> </h3>
+                        </td>
                     </tr>
                 </table>
             </fieldset>
+            <input type="submit" value="Finalizar">
         </form>
     </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
