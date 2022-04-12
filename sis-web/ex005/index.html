@@ -41,7 +41,7 @@
 
                 <div id="cnpj">
                     <label for="cnpj"> CNPJ </label>
-                    <input type="text" name="cpf" id="cpf" placeholder="XX.XXX.XXX/XXXX-XX">
+                    <input type="text" name="cnpj" placeholder="XX.XXX.XXX/XXXX-XX" onkeypress="mascara_cnpj(this)" maxlength="18"><br><br>
                 </div>
 
                 <label for="tel"> Telefone </label>
@@ -49,8 +49,8 @@
 
                 <label for="formapg"> Forma de Pagamento </label>
                 <select name="pagamento" id="pagamento">
-                    <option value="cartao"> Cartão </option>
-                    <option value="din"> Dinheiro </option>
+                    <option value="cartao" onchange=> Cartão </option>
+                    <option value="din" > Dinheiro </option>
                     <option value="cheque"> Cheque </option>
                 </select>
         

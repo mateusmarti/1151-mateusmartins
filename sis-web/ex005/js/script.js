@@ -95,3 +95,29 @@ function pessoa(obj){
         document.getElementById('cpf').style.display = "none"
     }
 }
+
+function mascara_cpf(obj){
+    if(obj.value.length == 3){
+        obj.value += ".";
+    }
+    else if(obj.value.length == 7){
+        obj.value += ".";
+    }
+    else if(obj.value.length == 11){
+        obj.value += "-";
+    }
+}
+function mascara_cnpj(obj){
+    if(obj.value.length == 2){
+        obj.value += ".";
+    }
+    else if(obj.value.length == 6){
+        obj.value += ".";
+    }
+    else if(obj.value.length == 10){
+        obj.value += "/";
+    }
+    else if(obj.value.length == 15){
+        obj.value += "-";
+    }
+}
