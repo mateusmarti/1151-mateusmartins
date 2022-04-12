@@ -28,14 +28,14 @@ function calculos(form){
     apagar = total - desconto;
     
     //saida
-    form.tot1.value = "R$ " + tot1.toFixed(2);
-    form.tot2.value = "R$ " + tot2.toFixed(2);
-    form.tot3.value = "R$ " + tot3.toFixed(2);
-    form.tot4.value = "R$ " + tot4.toFixed(2);
+    form.tot1.value = "R$ " + tot1.toFixed(2).replace(".",",");
+    form.tot2.value = "R$ " + tot2.toFixed(2).replace(".",",");
+    form.tot3.value = "R$ " + tot3.toFixed(2).replace(".",",");
+    form.tot4.value = "R$ " + tot4.toFixed(2).replace(".",",");
 
-    document.getElementById('total').value = total.toFixed(2);
-    document.getElementById('desconto').value = desconto.toFixed(2);
-    document.getElementById('apagar').value = apagar.toFixed(2);
+    document.getElementById('total').value = total.toFixed(2).replace(".",",");
+    document.getElementById('desconto').value = desconto.toFixed(2).replace(".",",");
+    document.getElementById('apagar').value = apagar.toFixed(2).replace(".",",");
 
 }
 function confirma(form){
@@ -138,10 +138,20 @@ function salto2(campo,digito){
 function somente_numero(e){
     tecla = (window.event)?event.keyCode:e.witch;
     
-    if((tecla >= 48 && tecla <=57) || (tecla>=96 && tecla<=105) || (tecla == 8) (tecla == 37)(tecla == 39)(tecla == 46) ){
-        return true
+    if((tecla >= 48 && tecla <=57) || (tecla>=96 && tecla<=105) || (tecla == 8) || (tecla == 37) || (tecla == 39) || (tecla == 46)){
+        return true;
     }
     else{
-        return false
+        return false;
+    }
+}
+function somente_numero2(e){
+    tecla = (window.event)?event.keyCode:e.witch;
+    
+    if((tecla >= 48 && tecla <=57) || (tecla>=96 && tecla<=105) || (tecla == 8) || (tecla == 37) || (tecla == 39) || (tecla == 46)){
+        return true;
+    }
+    else{
+        return false;
     }
 }
