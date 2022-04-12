@@ -65,6 +65,10 @@ function confirma(form){
             alert("Orçamento enviado com sucesso!!!");
             return true;
         }
+        else{
+            alert("Orçamento não enviado");
+            return false;
+        }
     }
 
     
