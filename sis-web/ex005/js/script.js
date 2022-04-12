@@ -121,3 +121,27 @@ function mascara_cnpj(obj){
         obj.value += "-";
     }
 }
+function salto(campo,digito){
+    if(campo == "cpf"){
+        if(digito.length > 13){
+            document.orcamento.tel.focus();
+        }
+    }
+}
+function salto2(campo,digito){
+    if(campo == "cnpj"){
+        if(digito.length > 17){
+            document.orcamento.tel.focus();
+        }
+    }
+}
+function somente_numero(e){
+    tecla = (window.event)?event.keyCode:e.witch;
+    
+    if((tecla >= 48 && tecla <=57) || (tecla>=96 && tecla<=105) || (tecla == 8) (tecla == 37)(tecla == 39)(tecla == 46) ){
+        return true
+    }
+    else{
+        return false
+    }
+}
