@@ -57,7 +57,7 @@ function valuet() {
         newFoto = "img/pjmasks.png"
         cor = "blue"
     } else if(tema == "0"){
-        titulo = "Tema de Festa"
+        titulo = "Orçamento de Festa"
         newFundo = " "
         newFoto = " "
         cor = "black"
