@@ -16,3 +16,21 @@ h1 {
     font-family: "arial black";
     font-size: 2.5em;
 }
+#imagem img{
+    position: fixed;
+    right: -100px;
+    height: 60%;
+    bottom: 0;
+}
+body {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*#foto {
+    width: 50%;
+    position: fixed;
+    margin-left: 53%;
+    margin-top: 20%;
+}
