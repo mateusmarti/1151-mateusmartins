@@ -1,6 +1,7 @@
 function valueh() {
     //entrada
-    let hor = document.form.horario.value
+    let hor = document.form.horario.value;
+    
 
     //processamento
     if(hor == "manha") {
@@ -12,5 +13,26 @@ function valueh() {
     }
 
     //saida
-    document.getElementById("res").value = valor
+    document.getElementById("res").value = valor;
+
+    document.getElementById("guloseimas").checked = false;
+    document.getElementById("personagens").checked = false;
+    document.getElementById("atracoes").checked = false;
+    document.getElementById("maquiagem").checked = false;
+    document.getElementById("brindes").checked = false;
+}
+
+function valuea(valor, marcado){
+    //entrada
+    total = document.getElementById("res").value;
+
+    //processamento
+    if(marcado){
+        total = Number(total) + Number(valor);
+    } else{
+        total = Number(total) - Number(valor);
+    }
+
+    //saida
+    document.getElementById("res").value = total;
 }
