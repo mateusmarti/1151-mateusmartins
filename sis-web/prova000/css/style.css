@@ -1,6 +1,16 @@
 .col-8 {
     margin: 0 auto;
+    background-color: white;
+    height: 60em;
+    width: 70em;
 }
 body{
     background-color: rgb(166, 166, 166);
+}
+#form {
+    width: 55em;
+    margin: auto;
+}
+h1 {
+    text-align: center;
 }
