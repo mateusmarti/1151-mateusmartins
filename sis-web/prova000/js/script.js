@@ -36,11 +36,7 @@ function valuea(valor, marcado){
     document.getElementById("res").value = total;
 }
 function envia(form) {
-    if(form.res.value == "0") {
-        alert("Impossível enviar o formulário com valor 0")
-        return false
-    }
-    else if(form.email.value == "") {
+    if(form.email.value == "") {
         alert("O Campo email é obrigatório")
         form.email.focus();
         return false;
@@ -89,6 +85,10 @@ function envia(form) {
         alert("O Campo Nome do Modelo é obrigatório")
         form.nmod.focus();
         return false;
+    }
+    else if(form.res.value == "0") {
+        alert("Impossível enviar o formulário com valor 0")
+        return false
     }
 
     var chk1 = document.form.check.checked;
