@@ -165,3 +165,12 @@ footer {
     background-color: white;
     border-radius: 10px;
 }
+#msg {
+    display: none;
+}
+.login{
+    margin: 50px;   
+    width: 40em;
+    height: 16em;
+    text-align: left;
+}
