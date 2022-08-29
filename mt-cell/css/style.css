@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(191, 191, 191);
+}
+.menu{
+    width: 80%;
+    margin: auto;
+}
+.carrossel{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+.produtos{
+    margin: auto;
+    width: 80%;
+}
