@@ -8,6 +8,7 @@ body{
 .menu{
     width: 80%;
     margin: auto;
+    background-color: #4161BF;
 }
 .carrossel{
     margin: auto;
@@ -18,7 +19,48 @@ body{
     margin: auto;
     width: 80%;
 }
+@media (min-width: 700px) {
+    .itens-header {
+    margin-left: 40em;
+}   
+@media (max-width: 700px) {
+    .sobre{
+        margin: auto;
+    }
+    .img-sobre{
+        margin: auto;
+    }
+}
 
-.itens-header {
-    margin-left: 27em;
+}
+
+.linhaComTexto {
+    margin: auto;
+    height: 20px;
+    border-bottom: 1px solid #4161BF;
+    text-align: center;
+}
+  
+.linhaComTexto > span {
+    font-size: 35px;
+    background-color: #ffffff;
+    padding: 0 10px;
+    color: #4161BF;
+}
+.sobre {
+    width: 80%;
+    height: 45vw;
+    margin: auto;
+    background-color: white;
+}
+.img-sobre {
+    margin-top: 10%;
+    float: left;
+}
+.texto-sobre{
+    float: right;
+    margin-top: 10%;
+}
+.produtos {
+    background-color: #4161BF;  
 }
