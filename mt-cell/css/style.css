@@ -20,19 +20,27 @@ body{
     width: 80%;
 }
 @media (min-width: 700px) {
+    .sobre {
+        height: 30em;
+    }
     .itens-header {
-    margin-left: 40em;
+    margin-left: 38em;
 }   
+}
 @media (max-width: 700px) {
+    .img-sobre{
+        width: 70%;
+    }
     .sobre{
         margin: auto;
+        height: 65em;
     }
     .img-sobre{
         margin: auto;
     }
 }
 
-}
+
 
 .linhaComTexto {
     margin: auto;
@@ -49,9 +57,8 @@ body{
 }
 .sobre {
     width: 80%;
-    height: 45vw;
     margin: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 .img-sobre {
     margin-top: 10%;
