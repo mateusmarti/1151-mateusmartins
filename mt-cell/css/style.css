@@ -19,24 +19,49 @@ body{
     margin: auto;
     width: 80%;
 }
-@media (min-width: 700px) {
+@media (min-width: 768px) {
     .sobre {
         height: 30em;
+        width: 80%;
     }
+
     .itens-header {
-    margin-left: 38em;
-}   
+        margin-left: 37em;
+    }   
+    
+    .cadastro {
+        width: 80%;
+    }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+    .menu {
+        width: 100%;
+    }
+    .carrossel {
+        width: 100%;
+    }
+    .produtos{
+        width: 100%;
+    }
     .img-sobre{
-        width: 70%;
+        width: 60%;
+        margin: auto;
+        margin-left: 30%;
+    }
+    .texto-sobre{
+        width: 90%;
+        height: 200px;
+        padding: auto;
+        margin: 0 35px 0px 0;
     }
     .sobre{
+        width: 100%;
         margin: auto;
-        height: 65em;
+        height: 55em;
+        padding: auto;
     }
-    .img-sobre{
-        margin: auto;
+    .mapa {
+        width: 100%;
     }
 }
 
@@ -56,7 +81,6 @@ body{
     color: #4161BF;
 }
 .sobre {
-    width: 80%;
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
@@ -70,4 +94,29 @@ body{
 }
 .produtos {
     background-color: #4161BF;  
+}
+.mapa{
+    width: 89%;
+    margin: auto;
+    background-color: white;
+}
+/* TELA DE CADASTRO */
+.cadastro {
+    background-color: #ffffff;
+    margin: auto;
+    width: 80%;
+    height: 53em;
+}
+.form {
+    width: 90%;
+    margin: auto;
+}
+#msg {
+    display: none;
+}
+@media (max-width: 768px) {
+    .cadastro{
+        width: 100%;
+        height: 60em;
+    }
 }
