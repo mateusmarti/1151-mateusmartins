@@ -13,7 +13,7 @@
 
 
         //comunicação
-        $sql = "insert into usuarios(emailUsu,senhaUsu,nomeUsu,cpfUsu,telefoneUsu,endeUsu,cidadeUsu,estadoUsu) values('$email','$senha','$nome','$cpf','$telefone','$end','$cidadeUsu','$estadoUsu')";
+        $sql = "insert into usuarios(emailUsu,senhaUsu,nomeUsu,cpfUsu,telefoneUsu,endeUsu) values('$email','$senha','$nome','$cpf','$telefone','$end')";
         $incluir = mysqli_query($conexao, $sql);
 
         //saida
@@ -21,7 +21,7 @@
             echo "
                 <script>
                     alert('Usuário cadastrado com sucesso');
-                    window.location = 'listarUsuarios.php';
+                    window.location = '../perfil.html';
                 </script>
 
             ";

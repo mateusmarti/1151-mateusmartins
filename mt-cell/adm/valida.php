@@ -1,13 +1,13 @@
 <?php
 include "conexao.php";
 
-if(isset($_POST['login'])){
-    $login = trim($_POST['login']);
+if(isset($_POST['email'])){
+    $login = trim($_POST['email']);
     $senha = trim($_POST['senha']);
 
 //escreve a sql
 
-$sql = "select * from usuarios where login = '$login' and senha = '$senha'";
+$sql = "select * from usuarios where emailUsu = '$login' and senhaUsu = '$senha'";
 
 //executa a sql
 
@@ -39,7 +39,7 @@ $existe = mysqli_num_rows($testelogin);
     $_SESSION['endereco'] = $end;
     $_SESSION['cidade'] = $cidade;
 
-    header('location: ../index.html');
+    header('location: ../perfil.html');
     
     
 

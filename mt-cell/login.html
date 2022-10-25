@@ -44,12 +44,12 @@
         </div>
       </nav>
       <div class="col-8 cadastro"><br>
-        <form class="row g-3 form" name="form" id="form" method="post" onsubmit="return envia(this)" action="envio.html">
+        <form class="row g-3 form" name="form" id="form" method="post" onsubmit="return envia(this)" action="adm/valida.php">
             <h1 style="text-align: center;">Faça o Login</h1>
             <h3 style="text-align: center;">Use sua conta cadastrada</h3> <br><br><br><br>
             <div class="col-12 col-md-6">
               <label for="inputEmail4" class="form-label">E-Mail</label>
-              <input type="email" class="form-control" id="email" required>
+              <input type="email" class="form-control" name="email" id="email" required>
             </div>
             <div class="col-12 col-md-6">
               <label for="inputPassword4" class="form-label">Senha</label>
@@ -79,3 +79,7 @@
     <script src="js/script.js"></script>
   </body>
 </html>
+
+<?php
+  include "adm/valida.php";
+?>
