@@ -19,18 +19,25 @@ body{
     margin: auto;
     width: 80%;
 }
+
+@media (min-width: 1000px) {
+    .itens-header {
+        margin-left: 37vw;
+    } 
+}
 @media (min-width: 768px) {
     .sobre {
         height: 32em;
         width: 80%;
     }
-
-    .itens-header {
-        margin-left: 37vw;
-    }   
-    
     .cadastro {
         width: 80%;
+    }
+    .texto-sobre{
+        float: right;
+        margin-top: 10%;
+        width: 50vw;
+        margin-right: 1vw;
     }
 }
 @media (max-width: 768px) {
@@ -52,7 +59,8 @@ body{
         width: 90%;
         height: 200px;
         padding: auto;
-        margin: auto 35px 0px 0;
+        margin: auto 4.5vw 2vw 2vw;
+        text-align: center;
     }
     .sobre{
         width: 100%;
@@ -105,10 +113,7 @@ ul li {
     float: left;
 }
 
-.texto-sobre{
-    float: right;
-    margin-top: 10%;
-}
+
 
 .produtos {
     background-color: #4161BF;  
@@ -185,9 +190,13 @@ ul li {
     width: 80%;
     background-color: #000000;
     height: 30vw;
+    padding: 35px ;
 }
 h1 {
     font-size: 1.5em;
+}
+.butao {
+    background-color: #4161BF;
 }
 @media (max-width: 768px) {
     .cadastro{
@@ -232,5 +241,10 @@ h1 {
         width: 100%;
         background-color: #000000;
         height: 110vw;
+    }
+}
+@media (max-width:500px) {
+    .meufooter {
+        height: 130vw;
     }
 }
