@@ -135,8 +135,8 @@
            
            <ul>
              <li><a class="btn btn-outline-primary botoes" href="https://github.com/mateusmarti" target="_blank">Mateus Martins</a></li><br>
-             <li><a class="btn btn-outline-primary botoes" href="#" target="_blank">Gustavo Cassaro</a></li><br>
-             <li><a class="btn btn-outline-primary botoes" href="#" target="_blank">Kalebe Gadioli</a></li><br>
+             <li><a class="btn btn-outline-primary botoes" href="https://github.com/Gustavocassaro" target="_blank">Gustavo Cassaro</a></li><br>
+             <li><a class="btn btn-outline-primary botoes" href="https://github.com/KLCria21" target="_blank">Kalebe Gadioli</a></li><br>
            </ul>
         
         </div> 
